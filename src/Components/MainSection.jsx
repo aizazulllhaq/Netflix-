@@ -2,7 +2,7 @@ import React from "react";
 
 const MainSection = () => {
   return (
-    <section className="w-[100%] sm:h-[100vh] md:h-[600px] h-[580px]">
+    <section className="w-[100%] sm:h-[100vh] md:h-[600px] lg:h-[538px] h-[580px]">
       <div className="max-w-[1170px] mx-auto py-[150px] text-white text-center">
         <h1 className="md:text-6xl sm:text-3xl text-2xl font-bold px-[20px]">
           Unlimited movies TV shows, and more

@@ -46,12 +46,12 @@ const Footer = () => {
     <section className="w-[100%] border-t-[10px] border-[rgba(35,35,35)] bg-black text-gray-400">
       <div className="px-20 py-12">
         <div>
-          <h1 className="underline md:px-[70px] sm:px-[40px] px-[20px] font-bold pt-[20px] md:text-2xl text-md">
+          <h1 className="underline md:px-[70px] sm:px-[40px] px-[20px] font-bold pt-[20px] text-md">
             Questions? Contact us
           </h1>
         </div>
 
-        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-4 sm:pr-[150px] md:text-2xl text-md">
+        <div className="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-2 gap-4 sm:pr-[150px] text-md">
           {LINKS.map((column, index) => (
             <div key={index} className="underline md:px-[70px] sm:px-[40px] px-[20px] pt-[10px]">
               <ul>
