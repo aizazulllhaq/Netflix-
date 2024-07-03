@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let allQuestions = document.querySelector(".faqs");
+
+      allQuestions.forEach((e, i) => {
+        e.addEventListener("click",()=>{
+          e.nextElementSibling.classList.toggle("h-[auto] scale-y-100 p-[20px]");
+          e.nextElementSibling.classList.toggle("scale-y-100");
+          e.nextElementSibling.classList.toggle("p-[20px]");
+        })
+      });
+    </script>
+  </body>
+</html>
